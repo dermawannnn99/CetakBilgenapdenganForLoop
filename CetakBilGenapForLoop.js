@@ -1,9 +1,14 @@
-let total = 0
+/**
+ * tentukan lah bil genap dari 1 hingga 50, cetak semua bil genapnya dan jumlahkan semua bilangan genap tersebut
+ */
 
-for (let i = 1; i <= 50; i++) {
-    if (i % 2===0) {
+
+let total = 0 //inisialisasi var total dengan nilai 0
+
+for (let i = 1; i <= 50; i++) { //loop sebanyak 1 sampai 50
+    if (i % 2===0) { // cek apakah i = bil genap
         console.log(i)
-        total += i
+        total += i // tambahkan setiap nilai i ke var total
     }
 }
 
