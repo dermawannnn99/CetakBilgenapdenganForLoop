@@ -12,4 +12,4 @@ for (let i = 1; i <= 50; i++) { //loop sebanyak 1 sampai 50
     }
 }
 
-console.log("Jumlah totalnya Adalah :", total)
+console.log("Jumlah totalnya Adalah :", total) //cetak output
